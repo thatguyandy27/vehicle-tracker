@@ -13,8 +13,11 @@ html, body {
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  background-image: url(./images/Flag_of_San_Francisco.png);
   height: 80px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .App-header {
@@ -34,6 +37,16 @@ html, body {
 }
 
 .Main {
-  height: 100%;
+  height: calc(100% - 64px);
+  padding-left: 256px;
 }
 
+h4{
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
